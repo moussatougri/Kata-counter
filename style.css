@@ -1,0 +1,36 @@
+
+
+main {
+  height: 200px;
+  position: relative;
+}
+
+div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+.increment{
+  background-color: green;
+  border: none;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+.decrement{
+  background-color: red;
+  border: none;
+  padding: 15px;
+}
+
+
+p{
+  font-size: 30px;
+  text-align: center;
+}
